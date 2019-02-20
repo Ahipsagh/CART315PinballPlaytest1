@@ -14,6 +14,10 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.Rotate(0,rotatespeed,0);
+        if (transform.localScale.z > 0 )
+        {
+            transform.localScale -= new Vector3(0, 0, 0.001f);
+
+        }
     }
 }
