@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c1210ed5f2dddc04f92505f83d1e39ed, type: 2}
+  - {fileID: 2100000, guid: 78d9dce7494b548d7972a75cd4697bd9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1008,7 +1008,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 2, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -1.0707401, y: -1.9162178, z: 0.8}
+  m_ConnectedAnchor: {x: -0.44, y: -1.52, z: 1.07}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -1116,6 +1116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6e04378a72d645489e9c364dc49c383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thescore: {fileID: 0}
 --- !u!82 &902770723460750299
 AudioSource:
   m_ObjectHideFlags: 0
