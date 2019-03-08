@@ -173,7 +173,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.49999976, z: 0.37}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.3825763, y: 0.49267992, z: 2.9788895}
+  m_ConnectedAnchor: {x: 1.1932167, y: 0.85468405, z: 2.9788895}
   m_UseSpring: 1
   m_Spring:
     spring: 10
@@ -277,7 +277,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh12040
+  m_Name: pb_Mesh4558
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -734,11 +734,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30641949}
   m_LocalRotation: {x: -0, y: -0, z: 0.13917309, w: 0.9902681}
-  m_LocalPosition: {x: 0.46792698, y: 0.4777999, z: 2.134}
+  m_LocalPosition: {x: 0.49, y: 0.41, z: 2.134}
   m_LocalScale: {x: 0.643375, y: 0.25, z: 4}
   m_Children:
   - {fileID: 653466525}
   - {fileID: 2126172797}
+  - {fileID: 929413475}
   m_Father: {fileID: 1200548868}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -749,7 +750,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30641949}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8eabebd87b0cecc4194e704c5ebf3fba, type: 3}
   m_Name: 
@@ -834,7 +835,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh11856
+  m_Name: pb_Mesh4372
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1036,7 +1037,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.49999988, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -2.44, y: 0.64999986, z: -3.853091}
+  m_ConnectedAnchor: {x: -2.5246427, y: -0.04773518, z: -3.853091}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 1
@@ -2750,7 +2751,7 @@ GameObject:
   - component: {fileID: 484584533}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: SoccerBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2850,7 +2851,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh11944
+  m_Name: pb_Mesh4460
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3176,7 +3177,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1116
+  m_Name: pb_Mesh-1110
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3672,7 +3673,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1136
+  m_Name: pb_Mesh-1130
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3947,7 +3948,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.49999976, z: 0.37}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -3.9344237, y: 0.49267888, z: 1.4748893}
+  m_ConnectedAnchor: {x: -3.9178114, y: -0.61088085, z: 1.4748893}
   m_UseSpring: 1
   m_Spring:
     spring: 10
@@ -4292,7 +4293,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 904357904443146691, guid: f15e24134e0043a459da871096c72e7c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f15e24134e0043a459da871096c72e7c, type: 3}
 --- !u!1 &831362087
 GameObject:
@@ -4379,7 +4381,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831362087}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.13917309, w: 0.9902681}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4401,14 +4403,14 @@ Transform:
   - {fileID: 1168552155}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 16}
 --- !u!43 &848194749
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh12122
+  m_Name: pb_Mesh4642
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -4769,6 +4771,87 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &929413474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 929413475}
+  - component: {fileID: 929413478}
+  - component: {fileID: 929413477}
+  - component: {fileID: 929413476}
+  - component: {fileID: 929413479}
+  m_Layer: 0
+  m_Name: GoalieNet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &929413475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929413474}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.89, y: -4.4, z: -0.497}
+  m_LocalScale: {x: 1.9916911, y: 5.1256175, z: 0.8994817}
+  m_Children: []
+  m_Father: {fileID: 30641954}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &929413476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929413474}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0c2eaec294f534aaaf75eab0449a0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theball: {fileID: 484584528}
+--- !u!65 &929413477
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929413474}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &929413478
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929413474}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &929413479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929413474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c2bfbc11443c4e4891aae4d122b698f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theball: {fileID: 484584528}
 --- !u!1 &949918267
 GameObject:
   m_ObjectHideFlags: 0
@@ -5037,7 +5120,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.49999976, z: -0.28}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -3.9337263, y: 0.49267992, z: -1.3366972}
+  m_ConnectedAnchor: {x: -3.9171414, y: -0.61068755, z: -1.3366972}
   m_UseSpring: 1
   m_Spring:
     spring: 10
@@ -5237,6 +5320,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 814746823}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1043655241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043655239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b62da8d022d6463291c2e2299e362d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thescore: {fileID: 949918269}
 --- !u!114 &1043655249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5337,7 +5433,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.49999976, z: -0.28}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.0162736, y: 0.49267992, z: -1.6796972}
+  m_ConnectedAnchor: {x: 0.8411039, y: 0.7537173, z: -1.6796972}
   m_UseSpring: 1
   m_Spring:
     spring: 10
