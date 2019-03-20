@@ -18,6 +18,7 @@ public class Flipper : MonoBehaviour
     {
         if (Input.GetButton(button))
         {
+            this.GetComponent<AudioSource>().Play();
             this.GetComponent<HingeJoint>().useMotor = true;
             thescore.ResetMultiplier();
         }
