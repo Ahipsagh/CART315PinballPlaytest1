@@ -24,7 +24,6 @@ public class gameover : MonoBehaviour
         if (collider.gameObject == theball)
         {
             Debug.Log("game over");
-            this.GetComponent<AudioSource>().Play();
             theball.transform.position = initialposition;
         }
     }
